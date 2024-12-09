@@ -37,6 +37,16 @@ header{
 
 .logo img{
     width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.logo img:hover{
+    width: 152px;
+    height: 91px;
+    transition: 0.3ms ease;
 }
 
 .search input{
@@ -451,11 +461,12 @@ footer a{
 
 .sections-container {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     white-space: nowrap;
+    max-width: 1200px;
 }
 
 .section {
@@ -463,12 +474,12 @@ footer a{
     color: black;
     display: inline-block;
     vertical-align: top;
-    padding: 12px;
+    padding: 20px;
     margin: 15px 20px;
     width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    height: 225px;
+    border-radius: 50px;
+    box-shadow: 0 25px 16px rgba(8, 8, 8, 0.1); 
 }
 
 .section h2 {
